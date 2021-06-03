@@ -1,5 +1,8 @@
-.App {
+.App, button {
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 .App-logo {
@@ -28,11 +31,26 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movie-actor-container {
+  display: flex;
+  margin: 40px;
+  justify-content: space-around;
 }
+
+.movie-actor-container div {
+  width: 30%;
+}
+
+.movie-actor-container img {
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin: 0 20px;
+}
+
